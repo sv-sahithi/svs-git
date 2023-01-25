@@ -1,0 +1,40 @@
+gitcommands practice -2000031530
+
+To connect our github account with gitbash
+git config --global user.name "username"
+git congig --global user.email "emailaddress"
+
+
+mkdir foldername //to create a new folder
+cd foldername //to open the created folder
+touch names.txt //to create a new .txt file
+vi names.txt //to insert in .txt
+    1.press i to stat inserting
+    2.insert the data you need
+    3.press esc and then :wq to save the data
+ls //to see the list of files in the folder
+cat names.txt //to see the data in .txt file
+git init //to intialize the git repository
+git add . //to add all the files
+git commit -m "created file and added" //to commit the file
+git log //create the file and add
+git branch -M main //to change from master to main
+git remote add orgin link //to add file to the repository
+git push -u origin main //push the file
+
+
+branching
+git  clone link //to clone the account
+cd foldername //to open the folder
+git pull link //to pull the file
+git checkout feature // to move to the feature
+ls 
+cat welcome.txt
+vi welcome.txt
+git push -u link
+git commit -m "first commit"
+git add welcome.txt
+
+
+
+
